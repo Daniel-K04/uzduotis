@@ -1,0 +1,479 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
+}
+
+.first {
+  min-height: 100vh;
+}
+
+.logo {
+  position: absolute;
+  top: 50px;
+  left: 25px;
+  z-index: 2;
+  width: 300px;
+  height: auto;
+  padding: 15px;
+}
+
+.photo img {
+  max-width: 400px;
+  height: auto;
+  border-radius: 40px;
+}
+
+.card {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 90%;
+}
+
+.card .first {
+  margin: 50px;
+}
+
+.card .second {
+  margin: 50px;
+  margin-top: -65px;
+}
+
+.card .third {
+  margin: 50px;
+}
+
+.card h2 {
+  color: #000;
+  text-align: center;
+  max-width: 400px;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.card .first .text h2 {
+  color: #f8b5d6;
+}
+
+.card .second .photo {
+  box-shadow: 0px 25px 50px 25px rgba(248, 181, 214, 0.6);
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.card .second .text h2 {
+  color: #bbbbbb;
+}
+
+.card .third .text h2 {
+  color: #bbbbbb;
+}
+
+.big_txt h1 {
+  position: absolute;
+  top: 30%;
+  color: #fff;
+  font-size: 3.2em;
+  padding: 50px;
+  max-width: 1000px;
+}
+
+.big_txt h1 span {
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+
+.small_txt {
+  position: absolute;
+  top: 65%;
+  padding: 50px;
+}
+
+.small_txt h2 {
+  font-size: 3em;
+  max-width: 400px;
+  color: #fff;
+}
+
+.txt {
+  color: #000;
+  max-width: 1000px;
+  position: absolute;
+  bottom: -35em;
+  right: 0;
+  padding: 50px;
+}
+
+.txt p {
+  font-size: 1em;
+  white-space: pre-line;
+}
+
+.secondpart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container1 {
+  position: absolute;
+  bottom: -200%;
+  left: 200px;
+  display: flex;
+  z-index: 1;
+}
+
+.container1 .img {
+  position: absolute;
+  top: -222px;
+  right: -44px;
+  z-index: 10;
+}
+
+.container1 .img img {
+  width: 350px;
+  height: auto;
+}
+
+.container1 .card1 {
+  width: 400px;
+  height: 500px;
+  padding: 30px;
+  box-shadow: 0px 25px 50px 25px rgba(248, 181, 214, 0.6);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.container1 .card1 .content {
+  text-align: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.container1 .card1 .content h3 {
+  font-size: 1.8em;
+  z-index: 1;
+  padding: 5px;
+  color: #f8b5d6;
+}
+
+.container1 .card1 .content p {
+  font-size: 1em;
+  font-weight: 300;
+  padding-top: 10px;
+  color: #000;
+}
+
+.container1 .card1 .content h4 {
+  text-align: center;
+  font-size: 1.1em;
+  color: #bbbbbb;
+  padding: 10px;
+}
+
+.container1 .card1 .content h4 .line {
+  border-bottom: 1px solid #bbbbbb;
+  width: 80%;
+  padding-top: 10px;
+  margin: auto;
+}
+
+.container2 {
+  position: absolute;
+  bottom: -165%;
+  right: 200px;
+  display: flex;
+  z-index: 1;
+}
+
+.container2 .img {
+  position: absolute;
+  top: -223px;
+  right: -38px;
+  z-index: 10;
+}
+
+.container2 .img img {
+  width: 350px;
+  height: auto;
+}
+
+.container2 .card2 {
+  width: 400px;
+  height: 500px;
+  padding: 30px;
+  box-shadow: 0px 25px 50px 25px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.container2 .card2 .content {
+  text-align: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.container2 .card2 .content h3 {
+  font-size: 1.8em;
+  z-index: 1;
+  padding: 5px;
+  color: #f8b5d6;
+}
+
+.container2 .card2 .content p {
+  font-size: 1em;
+  font-weight: 300;
+  padding-top: 10px;
+  color: #000;
+}
+
+.container2 .card2 .content h4 {
+  text-align: center;
+  font-size: 1.1em;
+  color: #bbbbbb;
+  padding: 10px;
+}
+
+.container2 .card2 .content h4 .line {
+  border-bottom: 1px solid #bbbbbb;
+  width: 80%;
+  padding-top: 10px;
+  margin: auto;
+}
+
+.thirdpart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 150vh;
+  color: #000;
+  margin-top: 60%;
+}
+
+.thirdpart .arrow {
+  z-index: 100;
+  position: absolute;
+  top: 363%;
+  right: 10%;
+}
+
+.thirdpart .arrow img {
+  width: 290px;
+}
+
+.thirdpart .txt1 {
+  position: absolute;
+  top: 350%;
+  left: 15%;
+}
+
+.thirdpart .txt1 h2 {
+  font-size: 4em;
+}
+
+.thirdpart .txt1 h1 {
+  font-size: 5em;
+  color: #f8b5d6;
+  text-transform: uppercase;
+}
+
+.thirdpart .txt2 {
+  position: absolute;
+  top: 375%;
+  left: 18%;
+  text-align: center;
+}
+
+.thirdpart .txt2 h2 {
+  font-size: 4em;
+}
+
+.thirdpart .txt2 h3 {
+  color: #bbbbbb;
+  padding: 30px;
+  font-size: 2em;
+}
+
+.thirdpart .txt2 h3 span {
+  color: #f8b5d6;
+  font-size: 2em;
+}
+
+.thirdpart .btn {
+  transition: 0.5s;
+  position: absolute;
+  top: 430%;
+  text-align: center;
+  background-color: red;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 5px 80px 30px rgba(248, 181, 214, 0.9);
+}
+
+.thirdpart .btn h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.thirdpart .btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.thirdpart .btn:hover {
+  transition: 0.5s;
+  box-shadow: 0px 10px 80px 30px rgba(255, 130, 192, 0.9);
+}
+
+.thirdpart .contactForm {
+  padding: 40px;
+  background: #ffffff;
+  color: #000000;
+}
+
+.thirdpart form {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.thirdpart .contactForm h2 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.thirdpart .contactForm .inputBox {
+  margin-left: 60px;
+  position: relative;
+  margin-top: 5px;
+}
+
+.thirdpart .contactForm .inputBox input {
+  padding: 15px 40px;
+  font-size: 16px;
+  margin: 6px 0px;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  outline: none;
+  resize: none;
+}
+
+.thirdpart .contactForm .inputBox span {
+  position: absolute;
+  left: 30%;
+  top: 25%;
+  padding: 5px 0;
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666666;
+  text-align: center;
+}
+
+.thirdpart .contactForm .inputBox .two {
+  left: 37%;
+}
+
+.thirdpart .contactForm .inputBox input:focus ~ span,
+.thirdpart .contactForm .inputBox input:valid ~ span,
+.thirdpart .contactForm .inputBox textarea:focus ~ span,
+.thirdpart .contactForm .inputBox textarea:valid ~ span {
+  color: #e91e63;
+}
+
+.thirdpart .bottom {
+  z-index: 10;
+}
+
+.thirdpart .bottom .svg {
+  position: absolute;
+  bottom: -450%;
+  left: 0;
+}
+
+.thirdpart .bottom .logo2 {
+  position: absolute;
+  bottom: -440%;
+  left: 7%;
+  width: 500px;
+  height: auto;
+  padding: 15px;
+}
+
+.thirdpart .bottom .text01 {
+  position: absolute;
+  bottom: -442%;
+  left: 60%;
+  color: #fff;
+}
+
+.thirdpart .bottom .text01 h2 {
+  text-transform: uppercase;
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.thirdpart .bottom .text01 .one {
+  font-size: 1em;
+  max-width: 250px;
+  line-height: 30px;
+}
+
+.thirdpart .bottom .text01 .two {
+  line-height: 30px;
+  font-size: 1em;
+}
+
+.thirdpart .bottom .text02 {
+  border-left: 2px solid #bbbbbb;
+  padding-left: 50px;
+  position: absolute;
+  bottom: -442%;
+  left: 80%;
+  color: #fff;
+}
+
+.thirdpart .bottom .text02 h2 {
+  text-transform: uppercase;
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.thirdpart .bottom .text02 h3 {
+  line-height: 30px;
+  font-size: 1em;
+}
+
+.thirdpart .bottom .text02 a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 30px;
+}
+
+.thirdpart .bottom .text02 a:hover {
+  transition: 0.5s;
+  color: #f8b5d6;
+}
+/*# sourceMappingURL=main.css.map */

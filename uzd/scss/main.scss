@@ -1,0 +1,429 @@
+@import 'resets';
+@import 'variables';
+
+body{
+  color:$white-txt;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
+}
+.first{
+  min-height: 100vh;
+}
+.logo{
+  position: absolute;
+  top: 50px;
+  left: 25px;
+  z-index: 2;
+  width: 300px;
+  height: auto;
+  padding: 15px;
+}
+.photo img{
+  max-width: 400px;
+  height: auto;
+  border-radius: 40px;
+}
+.card{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 90%;
+
+  .first{
+    margin: 50px;
+  } 
+  .second{
+    margin: 50px;
+    margin-top: -65px;
+  } 
+  .third{
+    margin: 50px;
+  }
+  h2{
+    color: $black-txt;
+    text-align: center;
+    max-width: 400px;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+  .first .text h2{
+    color: $pink-txt;
+  }
+  .second{
+    .photo{
+      box-shadow: 0px 25px 50px 25px  rgba(248,181,214, 0.6);
+      border-radius: 50px;
+      overflow: hidden;
+    }
+    .text h2{
+      color: $grey-txt;
+    }
+  }
+  .third{
+    .text h2{
+      color: $grey-txt;
+    }
+  }
+  
+  
+
+}
+.big_txt{
+  h1{
+    position: absolute;
+    top: 30%;
+    color: $white-txt;
+    font-size: 3.2em;
+    padding: 50px;
+    max-width: 1000px;
+    span{
+      font-size: 1.4em;
+      text-transform: uppercase;
+    }
+  }
+}
+.small_txt{
+  position: absolute;
+  top: 65%;
+  padding: 50px;
+  h2{
+    font-size: 3em;
+    max-width: 400px;
+    color: $white-txt;
+  }
+}
+.txt{
+  color: $black-txt;
+  max-width: 1000px;
+  position: absolute;
+  bottom: -35em;
+  right: 0;
+  padding: 50px;
+  p{
+   font-size: 1em;
+   white-space: pre-line;
+  }
+}
+
+//second part
+
+.secondpart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container1{
+  position: absolute;
+  bottom: -200%;
+  left: 200px;
+  display: flex;
+  z-index: 1;
+  .img{
+    position: absolute;
+    top: -222px;
+    right: -44px;
+    z-index: 10;
+
+    img{
+      width: 350px;
+      height: auto;
+    }
+  }
+  .card1{
+    width: 400px;
+    height: 500px;
+    padding: 30px;
+    box-shadow: 0px 25px 50px 25px  rgba(248,181,214, 0.6);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    .content{
+      text-align: center;
+      padding: 20px;
+      text-align: center;
+      h3{
+        font-size: 1.8em;
+        z-index: 1;
+        padding: 5px;
+        color: $pink-txt;
+      }
+      p{
+        font-size: 1em;
+        font-weight: 300;
+        padding-top: 10px;
+        color: $black-txt;
+      }
+      h4{
+        text-align: center;
+        font-size: 1.1em;
+        color: $grey-txt;
+        padding: 10px;
+        .line{
+          border-bottom: 1px solid $grey-txt;
+          width: 80%;
+          padding-top: 10px;
+          margin: auto;
+        }
+      }
+      
+    }
+  }
+}
+
+.container2{
+  position: absolute;
+  bottom: -165%;
+  right: 200px;
+  display: flex;
+  z-index: 1;
+  .img{
+    position: absolute;
+    top: -223px;
+    right: -38px;
+    z-index: 10;
+
+    img{
+      width: 350px;
+      height: auto;
+    }
+  }
+  .card2{
+    width: 400px;
+    height: 500px;
+    padding: 30px;
+    box-shadow: 0px 25px 50px 25px  rgba(0,0,0, 0.3);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    .content{
+      text-align: center;
+      padding: 20px;
+      text-align: center;
+      h3{
+        font-size: 1.8em;
+        z-index: 1;
+        padding: 5px;
+        color: $pink-txt;
+      }
+      p{
+        font-size: 1em;
+        font-weight: 300;
+        padding-top: 10px;
+        color: $black-txt;
+      }
+      h4{
+        text-align: center;
+        font-size: 1.1em;
+        color: $grey-txt;
+        padding: 10px;
+        .line{
+          border-bottom: 1px solid $grey-txt;
+          width: 80%;
+          padding-top: 10px;
+          margin: auto;
+        }
+      }
+      
+    }
+  }
+}
+
+//third part
+
+.thirdpart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 150vh;
+  color: $black-txt;
+  margin-top: 60%;
+  .arrow{
+    z-index: 100;
+    position: absolute;
+    top: 363%;
+    right: 10%;
+
+    img{
+      width: 290px;
+    }
+  }
+  .txt1{
+    position: absolute;
+    top: 350%;
+    left: 15%;
+    h2{
+      font-size: 4em;
+    }
+    h1{
+      font-size: 5em;
+      color: $pink-txt;
+      text-transform: uppercase;
+    }
+  }
+  .txt2{
+    position: absolute;
+    top: 375%;
+    left: 18%;
+    text-align: center;
+    h2{
+      font-size: 4em;
+    }
+    h3{
+      color: $grey-txt;
+      padding: 30px;
+      font-size: 2em;
+      span{
+        color: $pink-txt;
+        font-size: 2em;
+      }
+    }
+  }
+  .btn{
+    transition: 0.5s;
+    position: absolute;
+    top: 430%;
+    text-align: center;
+    background-color: red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 5px 80px 30px  rgba(248,181,214, 0.9);
+    h1{
+      font-size: 3em;
+      text-transform: uppercase;
+    }
+    a{
+      text-decoration: none;
+      color: #fff;
+    }
+    &:hover{
+      transition: 0.5s;
+      box-shadow: 0px 10px 80px 30px  rgba(255, 130, 192, 0.9);
+    }
+  }
+  .contactForm{
+    padding: 40px;
+    background: #ffffff;
+    color: #000000;
+  } 
+  form{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+  .contactForm h2{
+    font-size: 30px;
+    font-weight: 300;
+  }
+  .contactForm .inputBox{
+    margin-left: 60px;
+    position: relative;
+    margin-top: 5px;
+  }
+  .contactForm .inputBox input{
+    padding: 15px 40px;
+    font-size: 16px;
+    margin: 6px 0px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    outline: none;
+    resize: none;
+  }
+  .contactForm .inputBox span{
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    padding: 5px 0;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666666;
+    text-align: center;
+  }
+  .contactForm .inputBox .two{
+    left: 37%;
+  }
+  .contactForm .inputBox input:focus ~ span,
+  .contactForm .inputBox input:valid ~ span,
+  .contactForm .inputBox textarea:focus ~ span,
+  .contactForm .inputBox textarea:valid ~ span{
+        
+    color: #e91e63;
+  }
+  .bottom{
+    z-index: 10;
+    .svg{
+      position: absolute;
+      bottom: -450%;
+      left: 0;
+    }
+    .logo2{
+      position: absolute;
+      bottom: -440%;
+      left: 7%;
+      width: 500px;
+      height: auto;
+      padding: 15px;
+    }
+    .text01{
+      position: absolute;
+      bottom: -442%;
+      left: 60%;
+      color: #fff;
+      h2{
+        text-transform: uppercase;
+        font-size: 1em;
+        margin-bottom: 5px;
+      }
+      .one{
+        font-size: 1em;
+        max-width: 250px;
+        line-height: 30px;
+      }
+      .two{
+        line-height: 30px;
+        font-size: 1em;
+      }
+    }
+    .text02{
+      border-left: 2px solid $grey-txt;
+      padding-left: 50px;
+      position: absolute;
+      bottom: -442%;
+      left: 80%;
+      color: #fff;
+      h2{
+        text-transform: uppercase;
+        font-size: 1em;
+        margin-bottom: 5px;
+      }
+      h3{
+        line-height: 30px;
+        font-size: 1em;
+      }
+      a{
+        text-decoration: none;
+        color: #fff;
+        line-height: 30px;
+        
+      }
+      a:hover{
+        transition: 0.5s;
+        color: $pink-txt;
+      }
+    }
+  }
+}
+
